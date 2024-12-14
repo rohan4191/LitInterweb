@@ -7,10 +7,13 @@ body {
   background-image: url("heartGif.gif");
 }
 
-h3 {
+h1 {
   margin-top: 4px;
 }
 h2 {
+  margin-top: 4px;
+}
+h3 {
   margin-top: 4px;
 }
 
@@ -19,59 +22,21 @@ h2 {
   border-radius: 20px;
   padding: 10px;
   margin: 100px;
-  flex-direction: column;
-  display: flex;
 }
 
-.contentBot {
+.contentRow {
   flex-direction: row;
   display: flex;
   padding: 12px;
 }
 
-.contentLeft {
-  height: 200px;
-  width: 200px;
-}
-.contentCenter {
-  width: 400px;
+.block {
   background-color: cornflowerblue;
   padding: 4px;
   border-radius: 8px;
   border: solid;
   border-width: 2px;
   border-color: aliceblue;
-  margin: 8px;
-}
-.contentRight {
-  height: 200px;
-  width: 200px;
-  background-color: cornflowerblue;
-  padding: 4px;
-  border-radius: 8px;
-  border: solid;
-  border-width: 2px;
-  border-color: aliceblue;
-  margin: 8px;
-}
-
-#status {
-  height: 100px;
-  background-color: cornflowerblue;
-  padding: 4px;
-  border-radius: 8px;
-  border: solid;
-  border-width: 2px;
-  border-color: aliceblue;
-  margin: 8px;
-}
-#guestbook {
-  height: 100px;
-  background-color: cornflowerblue;
-  padding: 4px;
-  border-radius: 8px;
-  border: solid;
-  border-width: 2px;
-  border-color: aliceblue;
-  margin: 8px;
+  margin: 12px;
+  flex: 1;
 }
