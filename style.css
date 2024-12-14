@@ -15,6 +15,7 @@ h1 {
   -webkit-text-stroke-color: rgb(255, 119, 142);
   -webkit-text-fill-color: blueviolet;
   font-size: 64px;
+  text-shadow: aliceblue 2px 5px;
 }
 h2 {
   margin-top: 0px;
