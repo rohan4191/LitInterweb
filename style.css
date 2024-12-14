@@ -5,16 +5,25 @@ html {
 
 body {
   background-image: url("heartGif.gif");
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 h1 {
-  margin-top: 4px;
+  margin-top: -10px;
+  margin-bottom: 4px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(255, 119, 142);
+  -webkit-text-fill-color: blueviolet;
+  font-size: 64px;
 }
 h2 {
-  margin-top: 4px;
+  margin-top: 0px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 119, 142);
+  -webkit-text-fill-color: white;
 }
 h3 {
-  margin-top: 4px;
+  margin-top: 0px;
 }
 
 .content {
