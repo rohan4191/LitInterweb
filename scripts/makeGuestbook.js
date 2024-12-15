@@ -1,4 +1,5 @@
 const USER = "cyubey";
+const BFF = "m_alice";
 
 let comments = [
   { name: "", time: "", body: "" },
@@ -36,7 +37,7 @@ let comments = [
   {
     name: USER,
     time: "2 months ago",
-    body: "@normalOrmal. it is not supposed to be cute. it's supposed to be sad and dreery. bc thats how i feel.",
+    body: "@normalOrmal. it is not supposed to be cute. it's supposed to be sad and dreary. bc thats how i feel.",
   },
   {
     name: "normalOrmal",
@@ -59,7 +60,31 @@ let comments = [
     body: "you have been visited by the NEOCITY NIBBLER. your page looks nice and scrumptious. share this on 13 other pages or else your neocity will get nibbled",
   },
 
-  { name: "", time: "", body: "" },
+  {
+    name: BFF,
+    time: "1 year ago",
+    body: "i just found this page and ohmigosh its so cool! i LOVEEE all the styling and the gifs and the everything! do you mind if i steal some of it for my webpage",
+  },
+  {
+    name: USER,
+    time: "1 year ago",
+    body:
+      "@" +
+      BFF +
+      " tysm!! only if u credit me hehe just link back to this website so people know where you got it from",
+  },
+
+  {
+    name: BFF,
+    time: "1 year ago",
+    body: "youre the best! heres a link to my page if you wanna check it out : )\ni also have my msngr there if you wanna chat more :)",
+  },
+
+  {
+    name: BFF,
+    time: "8 months ago",
+    body: "silly inside joke",
+  },
 ];
 const commentContainer = document.getElementById("container");
 

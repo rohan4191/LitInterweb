@@ -1,11 +1,11 @@
-const USERNAME = "bean";
+const USERNAME = "cyubey";
 
 const statuses = [
   {
     time: "2 years ago",
     body: "crying weeping sobbing",
   },
-  { time: "9 months ago", body: "hapy" },
+  { time: "9 months ago", body: "feeling terribly sick" },
 ];
 const statusContainer = document.getElementById("entry-list");
 statuses.forEach(({ time, body }) => {
