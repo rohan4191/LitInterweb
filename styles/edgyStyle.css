@@ -15,10 +15,7 @@ h3 {
 }
 
 body {
-  background-image: url("assets/rain.gif");
-  background: linear-gradient(to top, #000000, #000000, #111111, #111111);
-  background-size: cover;
-  background-size: 100% 5px;
+  background-image: url("../assets/rain.gif");
 }
 
 .content {
