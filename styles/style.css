@@ -27,6 +27,11 @@ h3 {
   margin-top: 0px;
 }
 
+p {
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
 .content {
   background-color: pink;
   border-radius: 20px;
@@ -37,7 +42,7 @@ h3 {
 .contentRow {
   flex-direction: row;
   display: flex;
-  padding: 12px;
+  padding: 2px;
   align-items: flex-start;
 }
 
@@ -94,4 +99,25 @@ h3 {
 
 .commentBody {
   white-space: pre-wrap;
+}
+
+.little-gif {
+  width: 80px;
+}
+
+#warning {
+  color: red;
+  animation: wave 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(5px);
+  }
 }

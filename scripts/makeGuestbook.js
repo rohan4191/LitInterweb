@@ -1,4 +1,4 @@
-const comments = [
+let comments = [
   { name: "", time: "", body: "" },
   {
     name: "xxZANE_ROCKS_13xx",
@@ -63,21 +63,57 @@ const comments = [
   },
 ];
 const commentContainer = document.getElementById("container");
-comments.forEach(({ name, time, body }) => {
-  const comment = document.createElement("div");
-  comment.classList = "comment";
 
-  const header = document.createElement("p");
-  header.classList = "commentHeader";
-  const message = document.createElement("p");
-  message.classList = "commentBody";
+function renderComments() {
+  commentContainer.innerHTML = "";
+  comments.forEach(({ name, time, body }) => {
+    const comment = document.createElement("div");
+    comment.classList = "comment";
 
-  name = name ? name : "anonymous";
-  header.innerHTML = time + " | " + name + " says:";
-  message.innerHTML = body;
+    const header = document.createElement("p");
+    header.classList = "commentHeader";
+    const message = document.createElement("p");
+    message.classList = "commentBody";
 
-  comment.appendChild(header);
-  comment.appendChild(message);
+    name = name ? name : "anonymous";
+    header.innerHTML = time + " | " + name + " says:";
+    message.innerHTML = body;
 
-  commentContainer.appendChild(comment);
-});
+    comment.appendChild(header);
+    comment.appendChild(message);
+
+    commentContainer.appendChild(comment);
+  });
+}
+
+function addComment() {
+  const nameInput = document.getElementById("nameInput").value;
+  const commentInput = document.getElementById("commentInput").value;
+
+  if (!commentInput.trim()) {
+    const block = document.getElementById("submitBlock");
+    const warning = document.createElement("p");
+    warning.id = "warning";
+    warning.innerHTML = "type something before you submit, silly!";
+    block.appendChild(warning);
+    return;
+  }
+
+  const newComment = {
+    name: nameInput || "anonymous",
+    time: "just now",
+    body: commentInput,
+  };
+
+  comments.push(newComment);
+  renderComments();
+
+  // Clear the input fields
+  document.getElementById("nameInput").value = "";
+  document.getElementById("commentInput").value = "";
+}
+
+document.getElementById("submitButton").addEventListener("click", addComment);
+
+// Render the initial comments
+renderComments();
