@@ -64,8 +64,12 @@ p {
   padding-top: 8px;
 }
 
+.entry-list {
+  width: 600px;
+}
 .entry {
   padding-bottom: 4px;
+  margin-left: 20px;
 }
 .entry-header {
   color: blueviolet;
@@ -101,8 +105,15 @@ p {
   white-space: pre-wrap;
 }
 
-.little-gif {
+.small-gif {
   width: 80px;
+}
+.med-gif {
+  width: 160px;
+  padding: 2px;
+}
+.large-gif {
+  width: 320px;
 }
 
 #warning {
