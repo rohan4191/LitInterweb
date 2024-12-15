@@ -52,7 +52,10 @@ let comments = [
   {
     name: BFF,
     time: "1 year ago",
-    body: "HAHA if u say so. Hey do you mind if I steal some of your background code for my site? It's just so cool",
+    body:
+      "@" +
+      USER +
+      " HAHA if u say so. Hey do you mind if I steal some of your background code for my site? It's just so cool",
   },
   {
     name: USER,
@@ -66,10 +69,23 @@ let comments = [
   {
     name: BFF,
     time: "1 year ago",
-    body: "You're the best! Heres a <a href='alice.html'>link</a> to my page if you wanna check it out : )\nI also have my msngr there if you wanna chat more :)",
+    body:
+      "@" +
+      USER +
+      " You're the best! Heres a <a href='alice.html'>link</a> to my page if you wanna check it out : )\nI also have my msngr there if you wanna chat more :)",
   },
 
-  { name: USER, time: "1 year ago", body: "will do :}" },
+  { name: USER, time: "1 year ago", body: "@" + BFF + " will do :}" },
+
+  {
+    body: "a dozen comments of people from Alice's page, responses of surprise ",
+    type: "meta",
+  },
+
+  {
+    type: "meta",
+    body: "---------------------|216 comments hidden|---------------------",
+  },
 
   {
     name: BFF,
@@ -130,24 +146,31 @@ let comments = [
 const commentContainer = document.getElementById("container");
 
 function renderComments() {
-  commentContainer.innerHTML = "";
-  comments.forEach(({ name, time, body }) => {
-    const comment = document.createElement("div");
-    comment.classList = "comment";
+  comments.forEach(({ name, time, body, type }) => {
+    type = type ? type : "comment";
 
-    const header = document.createElement("p");
-    header.classList = "commentHeader";
-    const message = document.createElement("p");
-    message.classList = "commentBody";
+    const elem = document.createElement("div");
+    if (type === "comment") {
+      elem.classList = "comment";
 
-    name = name ? name : "anonymous";
-    header.innerHTML = time + " | " + name + " says:";
-    message.innerHTML = body;
+      const header = document.createElement("p");
+      header.classList = "commentHeader";
+      const message = document.createElement("p");
+      message.classList = "commentBody";
 
-    comment.appendChild(header);
-    comment.appendChild(message);
+      name = name ? name : "anonymous";
+      header.innerHTML = time + " | " + name + " says:";
+      message.innerHTML = body;
 
-    commentContainer.appendChild(comment);
+      elem.appendChild(header);
+      elem.appendChild(message);
+
+      commentContainer.appendChild(elem);
+    } else if (type === "meta") {
+      elem.innerHTML = body;
+      elem.classList = "meta";
+      commentContainer.appendChild(elem);
+    }
   });
 }
 
