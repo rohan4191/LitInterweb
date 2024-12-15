@@ -15,7 +15,7 @@ h3 {
 }
 
 body {
-  background-image: url("/assets/rain.gif");
+  background-image: url("assets/rain.gif");
 }
 
 .content {
