@@ -2,7 +2,6 @@ const USER = "cyubey";
 const BFF = "m_alice";
 
 let comments = [
-  { name: "", time: "", body: "" },
   {
     name: "xxZANE_ROCKS_13xx",
     time: "3 years ago",
@@ -13,7 +12,39 @@ let comments = [
     time: "3 years ago",
     body: "you have been visited by the NEOCITY NIBBLER. your page looks nice and scrumptious. share this on 13 other pages or else your neocity will get nibbled",
   },
-  { name: "alice", time: "11 months ago", body: "haiiii :3" },
+
+  {
+    name: BFF,
+    time: "1 year ago",
+    body: "i just found this page and ohmigosh its so cool! i LOVEEE all the styling and the gifs and the everything! do you mind if i steal some of it for my webpage",
+  },
+  {
+    name: USER,
+    time: "1 year ago",
+    body:
+      "@" +
+      BFF +
+      " tysm!! only if u credit me hehe just link back to this website so people know where you got it from",
+  },
+
+  {
+    name: BFF,
+    time: "1 year ago",
+    body: "youre the best! heres a <a href='alice.html'>link</a> to my page if you wanna check it out : )\ni also have my msngr there if you wanna chat more :)",
+  },
+
+  { name: USER, time: "1 year ago", body: "will do :}" },
+
+  {
+    name: BFF,
+    time: "8 months ago",
+    body: "silly inside joke",
+  },
+  {
+    name: USER,
+    time: "8 months ago",
+    body: "response showing deeper level of friendship",
+  },
   {
     name: "meowZA",
     time: "5 months ago",
@@ -58,39 +89,6 @@ let comments = [
     name: "will_daniels_2008",
     time: "6 days ago",
     body: "you have been visited by the NEOCITY NIBBLER. your page looks nice and scrumptious. share this on 13 other pages or else your neocity will get nibbled",
-  },
-
-  {
-    name: BFF,
-    time: "1 year ago",
-    body: "i just found this page and ohmigosh its so cool! i LOVEEE all the styling and the gifs and the everything! do you mind if i steal some of it for my webpage",
-  },
-  {
-    name: USER,
-    time: "1 year ago",
-    body:
-      "@" +
-      BFF +
-      " tysm!! only if u credit me hehe just link back to this website so people know where you got it from",
-  },
-
-  {
-    name: BFF,
-    time: "1 year ago",
-    body: "youre the best! heres a <a href='alice.html'>link</a> to my page if you wanna check it out : )\ni also have my msngr there if you wanna chat more :)",
-  },
-
-  { name: USER, time: "1 year ago", body: "will do :}" },
-
-  {
-    name: BFF,
-    time: "8 months ago",
-    body: "silly inside joke",
-  },
-  {
-    name: USER,
-    time: "8 months ago",
-    body: "response showing deeper level of friendship",
   },
 ];
 const commentContainer = document.getElementById("container");
