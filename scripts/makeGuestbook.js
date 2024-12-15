@@ -77,7 +77,7 @@ let comments = [
   {
     name: BFF,
     time: "1 year ago",
-    body: "youre the best! heres a link to my page if you wanna check it out : )\ni also have my msngr there if you wanna chat more :)",
+    body: "youre the best! heres a <a href='alice.html'>link</a> to my page if you wanna check it out : )\ni also have my msngr there if you wanna chat more :)",
   },
 
   {
