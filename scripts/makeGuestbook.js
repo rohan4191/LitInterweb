@@ -80,10 +80,17 @@ let comments = [
     body: "youre the best! heres a <a href='alice.html'>link</a> to my page if you wanna check it out : )\ni also have my msngr there if you wanna chat more :)",
   },
 
+  { name: USER, time: "1 year ago", body: "will do :}" },
+
   {
     name: BFF,
     time: "8 months ago",
     body: "silly inside joke",
+  },
+  {
+    name: USER,
+    time: "8 months ago",
+    body: "response showing deeper level of friendship",
   },
 ];
 const commentContainer = document.getElementById("container");
