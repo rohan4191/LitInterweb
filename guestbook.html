@@ -13,19 +13,32 @@
       background-attachment: fixed;
     "
   >
-    <a href="main.html">dont click this till you leave a comment!</a>
+    <a href="main.html">back </a>
+    <p>^dont click this till you leave a comment!</p>
     <div class="contentRow">
       <img src="assets/sparkles.gif" class="small-gif" />
       <h1>GUESTBOOK</h1>
       <img src="assets/sparkles.gif" class="small-gif" />
     </div>
     <img src="assets/pleasesign.gif" style="padding-left: 80px" />
+    <p>
+      btw sorry it starts with the oldest ones first i cant figure out how to go
+      the other way
+    </p>
     <div id="submitBlock" class="block" style="max-width: 60%; margin-left: 5%">
-      <p>name:</p>
-      <input id="nameInput" />
-      <p>comment:</p>
-      <textarea id="commentInput" cols="40" rows="5"></textarea>
-      <button id="submitButton">Submit</button>
+      <div class="contentRow">
+        <div class="contentCol">
+          <p>name:</p>
+          <input id="nameInput" />
+          <p>comment:</p>
+          <textarea id="commentInput" cols="40" rows="5"></textarea>
+          <button id="submitButton">Submit</button>
+        </div>
+        <div>
+          <p>some questions to answer if you dont know what to comment:</p>
+          <p>whats youre favorite thing about my website?</p>
+        </div>
+      </div>
     </div>
     <div class="gb-content" id="container"></div>
     <script src="scripts/makeGuestbook.js"></script>

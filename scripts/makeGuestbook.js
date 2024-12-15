@@ -1,20 +1,22 @@
+const USER = "cyubey";
+
 let comments = [
   { name: "", time: "", body: "" },
   {
     name: "xxZANE_ROCKS_13xx",
-    time: "2 years ago",
+    time: "3 years ago",
     body: "youre webapge stinks",
   },
   {
     name: "g3th@ck3d!",
-    time: "1 year ago",
+    time: "3 years ago",
     body: "you have been visited by the NEOCITY NIBBLER. your page looks nice and scrumptious. share this on 13 other pages or else your neocity will get nibbled",
   },
-  { name: "alice", time: "9 months ago", body: "haiiii :3" },
+  { name: "alice", time: "11 months ago", body: "haiiii :3" },
   {
     name: "meowZA",
     time: "5 months ago",
-    body: "hello bloggger! youve earned one of my rarest meows. enjoy uwu!\n\
+    body: "hello webmaster! youve earned one of my rarest meows. enjoy uwu!\n\
     ／＞　 フ\n\
   | 　_　_| \n\
 ／` ミ＿xノ \n\
@@ -23,21 +25,16 @@ let comments = [
 │　　|　|　|\n\
 ／￣|　　 |　|　|\n\
 (￣ヽ＿_ヽ_)__)\n\
-＼二)ℒ𝓸𝓿𝒆 𝔂𝓸𝓾 ",
+＼二) ",
   },
 
-  {
-    name: "cait4life",
-    time: "3 months ago",
-    body: "smh not another jinx fan. basic.",
-  },
   {
     name: "normalOrmal",
     time: "2 months ago",
     body: "aaaaaaa luv ur page. rain animation is so cute i could drink it up. hearts so sparkly they hurt my eyes. flawless. devine. byootiful.",
   },
   {
-    name: "MAINUSEENAMEHEREEIDK",
+    name: USER,
     time: "2 months ago",
     body: "@normalOrmal. it is not supposed to be cute. it's supposed to be sad and dreery. bc thats how i feel.",
   },
@@ -57,10 +54,12 @@ let comments = [
     body: "you're not the only one who lost a lot. just sayin.",
   },
   {
-    name: "alice",
-    time: "1 day ago",
+    name: "will_daniels_2008",
+    time: "6 days ago",
     body: "you have been visited by the NEOCITY NIBBLER. your page looks nice and scrumptious. share this on 13 other pages or else your neocity will get nibbled",
   },
+
+  { name: "", time: "", body: "" },
 ];
 const commentContainer = document.getElementById("container");
 
