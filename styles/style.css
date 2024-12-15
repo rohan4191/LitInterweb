@@ -32,7 +32,6 @@ h3 {
   border-radius: 20px;
   padding: 10px;
   margin: 100px;
-  min-width: 1000px;
 }
 
 .contentRow {
@@ -58,4 +57,41 @@ h3 {
   font-size: 12px;
   padding-left: 12px;
   padding-top: 8px;
+}
+
+.entry {
+  padding-bottom: 4px;
+}
+.entry-header {
+  color: blueviolet;
+}
+.entry-content {
+  text-indent: 16px;
+}
+
+.gb-content {
+  background-color: pink;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5%;
+  width: 60%;
+}
+
+.comment {
+  background-color: cornflowerblue;
+  padding: 4px;
+  border-radius: 8px;
+  border: solid;
+  border-width: 2px;
+  border-color: aliceblue;
+  margin: 12px;
+  flex: 1;
+}
+
+.commentHeader {
+  font-size: 12px;
+}
+
+.commentBody {
+  white-space: pre-wrap;
 }
