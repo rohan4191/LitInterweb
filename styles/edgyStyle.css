@@ -15,7 +15,7 @@ h3 {
 }
 
 body {
-  background-image: url("rain.gif");
+  background-image: url("/assets/rain.gif");
 }
 
 .content {
@@ -23,6 +23,7 @@ body {
   border-radius: 20px;
   padding: 10px;
   margin: 100px;
+  min-width: 800px;
 }
 
 .contentRow {

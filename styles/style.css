@@ -4,13 +4,8 @@ html {
 }
 
 body {
-  background-image: url("madokabg.jpg");
+  background-image: url("/assets/heartGif.gif");
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  flex: 1;
 }
 
 h1 {
@@ -36,14 +31,15 @@ h3 {
   background-color: pink;
   border-radius: 20px;
   padding: 10px;
-  margin: 5%;
-  width: 60%;
+  margin: 100px;
+  min-width: 1000px;
 }
 
 .contentRow {
   flex-direction: row;
   display: flex;
   padding: 12px;
+  align-items: flex-start;
 }
 
 .block {
@@ -55,19 +51,11 @@ h3 {
   border-color: aliceblue;
   margin: 12px;
   flex: 1;
+  padding: 8px;
 }
 
-.comment {
-  background-color: cornflowerblue;
-  padding: 4px;
-  border-radius: 8px;
-  border: solid;
-  border-width: 2px;
-  border-color: aliceblue;
-  margin: 12px;
-  flex: 1;
-}
-
-.commentHeader {
+.link {
   font-size: 12px;
+  padding-left: 12px;
+  padding-top: 8px;
 }

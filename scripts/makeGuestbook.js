@@ -17,7 +17,8 @@ comments.forEach(({ name, time, body }) => {
   const message = document.createElement("p");
   message.classList = "commentBody";
 
-  header.innerHTML = name + " | " + time;
+  name = name ? name : "anonymous";
+  header.innerHTML = time + " | " + name + " says:";
   message.innerHTML = body;
 
   comment.appendChild(header);
