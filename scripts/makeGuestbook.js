@@ -16,7 +16,27 @@ let comments = [
   {
     name: BFF,
     time: "1 year ago",
-    body: "i just found this page and ohmigosh its so cool! i LOVEEE all the styling and the gifs and the everything! do you mind if i steal some of it for my webpage",
+    body: "Awesome site!! I also love MM!!",
+  },
+  {
+    name: USER,
+    time: "1 year ago",
+    body: "madoka magica or mystic messenger lol",
+  },
+  {
+    name: BFF,
+    time: "1 year ago",
+    body: "Oh HAHA. I meant Mystic Messenger. I'm super in love with Seven. Ur kinda like him you know? Like a cool hacker type. Just sayin!",
+  },
+  {
+    name: USER,
+    time: "1 year ago",
+    body: ">u< tysm!!!! im trying really hard to make my site cool so more people visit and subscribe to my profile (wink wink you should sub)",
+  },
+  {
+    name: BFF,
+    time: "1 year ago",
+    body: "HAHA if u say so. Hey do you mind if I steal some of your background code for my site? It's just so cool",
   },
   {
     name: USER,
@@ -24,13 +44,13 @@ let comments = [
     body:
       "@" +
       BFF +
-      " tysm!! only if u credit me hehe just link back to this website so people know where you got it from",
+      " tysm!!! only if u credit me hehe just link back to this website so people know where you got it from",
   },
 
   {
     name: BFF,
     time: "1 year ago",
-    body: "youre the best! heres a <a href='alice.html'>link</a> to my page if you wanna check it out : )\ni also have my msngr there if you wanna chat more :)",
+    body: "You're the best! Heres a <a href='alice.html'>link</a> to my page if you wanna check it out : )\nI also have my msngr there if you wanna chat more :)",
   },
 
   { name: USER, time: "1 year ago", body: "will do :}" },
