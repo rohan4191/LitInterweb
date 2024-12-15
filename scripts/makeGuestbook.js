@@ -21,17 +21,33 @@ let comments = [
   {
     name: USER,
     time: "1 year ago",
-    body: "madoka magica or mystic messenger lol",
+    body: "@" + BFF + " madoka magica or mystic messenger lol",
   },
   {
     name: BFF,
     time: "1 year ago",
-    body: "Oh HAHA. I meant Mystic Messenger. I'm super in love with Seven. Ur kinda like him you know? Like a cool hacker type. Just sayin!",
+    body:
+      "@" +
+      USER +
+      " Oh HAHA. I meant Mystic Messenger. I'm super in love with Seven. Ur kinda like him you know? Like a cool hacker type. Just sayin!",
   },
   {
     name: USER,
     time: "1 year ago",
-    body: ">u< tysm!!!! im trying really hard to make my site cool so more people visit and subscribe to my profile (wink wink you should sub)",
+    body:
+      "@" +
+      BFF +
+      " >u< tysm!!!! im trying really hard to make my site cool so more people visit and subscribe to my profile",
+  },
+  {
+    name: USER,
+    time: "1 year ago",
+    body: "@" + BFF + " (wink wink you should sub)",
+  },
+  {
+    name: USER,
+    time: "1 year ago",
+    body: "@" + BFF + " I mean only if you want to!!!!",
   },
   {
     name: BFF,
