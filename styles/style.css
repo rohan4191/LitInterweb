@@ -136,3 +136,27 @@ p {
     transform: translateX(5px);
   }
 }
+
+.username {
+  background: linear-gradient(
+    to right,
+    #593a9b 20%,
+    #4426ee 30%,
+    #0043fa 70%,
+    #574191 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 5s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

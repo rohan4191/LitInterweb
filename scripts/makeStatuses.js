@@ -3,9 +3,8 @@ const USERNAME = "cyubey";
 const statuses = [
   {
     time: "2 years ago",
-    body: "crying weeping sobbing",
+    body: "wishing that my dad would EVER KNOCK",
   },
-  { time: "9 months ago", body: "feeling terribly sick" },
 ];
 const statusContainer = document.getElementById("entry-list");
 statuses.forEach(({ time, body }) => {
