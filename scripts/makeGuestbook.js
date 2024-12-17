@@ -388,12 +388,35 @@ let comments = [
 
   // 7 months
   // something cute silly and showing a depth of relationship between Cubey and Alice
+  {
+    name: BFF,
+    time: "7 months ago",
+    body: "",
+  },
 
   // 6 months
   // something from Alice hinting towards a desire for a deeper level of relationship with Cubey
+  {
+    name: BFF,
+    time: "6 months ago",
+    body: "",
+  },
 
-  // 5 months
-  // something showing how Alice is on the cusp of virality
+  {
+    name: BFF,
+    time: "4 months ago",
+    body: "Hey everyone, if you like the aesthetic and awesome programming skillz Cubey has on display on this page (sorry for once again stealing her for a month), you should come check out the latest updated she helped me with for my <a href='alice'>site<a/>!! I think we might finally break out onto the front page soon, so any support would be fantastic!!",
+  },
+  {
+    name: USER,
+    time: "4 months ago",
+    body: "cmon alice do you reallllyyyy need to advertise on my page lol? basically everyone here is from your page anyways.......",
+  },
+  {
+    name: USER,
+    time: "4 months ago",
+    body: "srry srry if that sounded mean i didnt really mean it im really excited for you too",
+  },
 
   {
     name: USER,
@@ -401,7 +424,7 @@ let comments = [
     body:
       "hey has anyone heard from @" +
       BFF +
-      "??? it looks like her site is down and shes not responding to her email and idk her actual phone number or anything",
+      "??? it looks like her site is down and idk her actual phone number or anything",
   },
   {
     name: "g3th@ck3d!",
@@ -428,11 +451,6 @@ let comments = [
     name: "ellabella",
     time: "3 weeks ago",
     body: "O i love your landing page!! but what happened :o your pages are so cute i wish you still posted",
-  },
-  {
-    name: "spyGuy35",
-    time: "2 weeks ago",
-    body: "you're not the only one who lost a lot. just sayin.",
   },
   {
     name: "will_daniels_2008",

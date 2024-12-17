@@ -61,7 +61,20 @@ const statuses = [
     body: "wishing that my dad would EVER KNOCK i stggg",
   },
 
+  {
+    time: "2 years ago",
+    body: "ohh my goshhh i had no idea " + BFF + " had such a huge page",
+  },
+  {
+    time: "2 years ago",
+    body: "EEEEp so many COMMENTS HIII EVERYONE",
+  },
+
   // more here
+  {
+    time: "3 years ago",
+    body: "",
+  },
 
   {
     time: "3 years ago",
