@@ -3,6 +3,11 @@ const BFF = "<span style='color: red'>m_alice</span>";
 
 let comments = [
   {
+    name: USER,
+    time: "3 years ago",
+    body: "got my guestbook setup and heres a first comment so you arent intimidated to leave a message!!!!! drop whatever thoughts you got in the box above plssss!!!!!",
+  },
+  {
     name: "lux",
     time: "3 years ago",
     body: "first",
@@ -10,7 +15,7 @@ let comments = [
   {
     name: USER,
     time: "3 years ago",
-    body: "@lux lolll thanks for being the first comment on my guestbook. is there anything else you wanted to say? maybe i should add some questions to this page in case people dk what to comment",
+    body: "@lux lolll thanks for being the first comment on my guestbook (besides me ofc). is there anything else you wanted to say? maybe i should add some questions to this page in case people dk what to comment",
   },
   {
     name: "strwbwnny",
@@ -36,7 +41,7 @@ let comments = [
   {
     name: USER,
     time: "2 years ago",
-    body: "@" + BFF + " madoka magica or mystic messenger lol",
+    body: "@" + BFF + " madoka magica or mystic messenger lolol",
   },
   {
     name: BFF,
@@ -44,7 +49,7 @@ let comments = [
     body:
       "@" +
       USER +
-      " Oh HAHA. I meant Mystic Messenger. I'm super in love with Seven. Ur kinda like him you know? A cool hacker type. Like how did you make the cursor do that??",
+      " Oh HAHA. I meant Mystic Messenger. I'm super in love with Seven. Ur kinda like him you know? Just sayin. Like a cool hacker type. Because how did you make the cursor do that??",
   },
   {
     name: USER,
@@ -52,17 +57,17 @@ let comments = [
     body:
       "@" +
       BFF +
-      " >u< tysm!!!! im trying really hard to make my site cool so more people visit and subscribe to my profile",
+      " >u< tysm!!!! im trying really hard to make my site cool so more people visit and follow my profile",
   },
   {
     name: USER,
     time: "2 years ago",
-    body: "@" + BFF + " (wink wink you should sub)",
+    body: "@" + BFF + " (wink wink you should follow)",
   },
   {
     name: USER,
     time: "2 years ago",
-    body: "@" + BFF + " I mean only if you want to!!!!",
+    body: "@" + BFF + " i mean only if you want to!!!!",
   },
   {
     name: BFF,
@@ -78,7 +83,7 @@ let comments = [
     body:
       "@" +
       BFF +
-      " tysm!!! only if u credit me hehe just link back to this website so people know where you got it from",
+      " tysm!!! only if u credit me hehe just link back to my site so people know where you got it from",
   },
 
   {
@@ -146,7 +151,7 @@ let comments = [
     body:
       "I checked this out from the link from " +
       BFF +
-      " and have fallen in LOOOOOOVE. instant sub",
+      " and have fallen in LOOOOOOVE. Iiiiinstant follow",
   },
   {
     name: USER,
@@ -178,7 +183,6 @@ let comments = [
     time: "1 year ago",
     body: "this site is pretty baller. what do i have to do to get on the friends page?",
   },
-
   {
     name: USER,
     time: "1 year ago",
@@ -206,7 +210,6 @@ let comments = [
     time: "1 year ago",
     body: "So not to put you on blast in public but when am I getting on that friends page?? Haven't I earned it by now?? /j",
   },
-
   {
     name: USER,
     time: "1 year ago",
@@ -215,13 +218,11 @@ let comments = [
       BFF +
       " oooopsies.... i have something special cooking for you don't worry (wink)",
   },
-
   {
     name: BFF,
     time: "1 year ago",
     body: "NO WAY?? MY OWN NAME COLOR??",
   },
-
   {
     name: USER,
     time: "1 year ago",
@@ -245,31 +246,39 @@ let comments = [
       "heyyy!~~ your site is adorable >w<\nI think my favorite part is all the stickers and I found you from a link from @" +
       BFF,
   },
+  {
+    name: USER,
+    time: "11 months ago",
+    body:
+      "omggg thank youuu im so glad you like the stickers. it seems like basically everyone is finding me from @" +
+      BFF +
+      " lol haha",
+  },
 
   {
     name: BFF,
-    time: "11 months ago",
+    time: "10 months ago",
     body: "EVERYONE. This is an important annoucement. It is Cubey's SITE BIRTHDAY!! Be sure to leave a comment, or invoke my wrath!!",
   },
   {
     name: USER,
-    time: "11 months ago",
+    time: "10 months ago",
     body: "awawawawaa aliceee you didnt have to do thatttt",
   },
   {
     name: BFF,
-    time: "11 months ago",
-    body: "Shushhhhh. My site wouldn't have nearly as many visitors if it wasn't for your genius coding, Seven : )",
+    time: "10 months ago",
+    body: "Shushhhhh. My site wouldn't have nearly as many visitors if it wasn't for your genius coding, Seven. Just sayin : )",
   },
 
   {
     name: "miauau",
-    time: "11 months ago",
+    time: "10 months ago",
     body: "HAPPY NEOBIRTHDAY CUBEY",
   },
   {
     name: "sarahpie",
-    time: "11 months ago",
+    time: "10 months ago",
     body: "Happy site bday. LOVE the most recent update",
   },
   {
@@ -278,7 +287,7 @@ let comments = [
   },
   {
     name: USER,
-    time: "11 months ago",
+    time: "10 months ago",
     body: "guysss plsss tysm i cant even respond to everyone 😭",
   },
 
@@ -291,14 +300,14 @@ let comments = [
     name: USER,
     time: "9 months ago",
     body:
-      "@Teef tysm for asking!!! yeah no im spending a lot of time helping " +
+      "@Teef tysm for asking!!! yeah no im spending a lot of time helping @" +
       BFF +
       " with her site so havent been working on mine as much srryyy",
   },
   {
     name: BFF,
     time: "9 months ago",
-    body: "Sorry for stealing Cubey from you all, but it's really paying off!! We've almost cracked the top 50 sites by daily viewers, which means we'll get featured on the front page soon!!",
+    body: "Sorry for stealing Cubey from you all, but it's really paying off!! We've almost cracked the top 20 sites by daily viewers, which means we could get featured on the front page soon!!",
   },
   {
     name: USER,
@@ -313,7 +322,10 @@ let comments = [
   {
     name: "Teef",
     time: "9 months ago",
-    body: "But everything's good IRL? Some of your statuses make it sound like you're going through some stuff...",
+    body:
+      "@" +
+      USER +
+      " But everything's good IRL? Some of your statuses make it sound like you're going through some stuff...",
   },
   {
     name: USER,
@@ -324,21 +336,64 @@ let comments = [
   {
     name: BFF,
     time: "8 months ago",
-    body: "PSA to anyone reading this guestbook: Do NOT watch episode 3 of Madoka Magica.",
+    body: "PSA to everyone on this board: Do NOT watch episode 3 of Madoka Magica. Just sayin.",
   },
   {
-    name: "Teef",
+    name: "sarahpie",
     time: "8 months ago",
     body:
       "@" +
       BFF +
-      " Lmao. I was surprised to hear Cubey hadn't actually seen past episode 2, given how heavily it features here.",
+      " LMAOOO. I was soooo surprised to hear Cubey hadn't actually seen past episode 2 cause it is alllll over the place here.",
   },
   {
     name: BFF,
     time: "8 months ago",
-    body: "HAHA yeah she didn't take it well when I told her what happened.",
+    body: "HAHA yeah she didn't take it well when I told her what happens.",
   },
+  {
+    name: "miauau",
+    time: "8 months ago",
+    body: "NOOOO I JUST LOOKED IT UP WHAT THE HECK. TELL ME YOU DIDNT TELL CUBEY ABOUT THIS SHE MUST BE SO SAD",
+  },
+  {
+    name: BFF,
+    time: "8 months ago",
+    body:
+      "Well since I know <i>someone</i> can't help but read every comment as soon as they get it, hopefully you can forgive me @" +
+      USER +
+      " (and stop giving me the silent treatment)",
+  },
+
+  {
+    name: USER,
+    time: "8 months ago",
+    body: "madoka magica is supposed to be CUTE and HAPPY but its actually been sad and evil all along????? im literally called kyubey guys and i said i was giving alice magic powers but now that means im actually cursing her like whaaattttt 😭😭😭😭",
+  },
+  {
+    name: BFF,
+    time: "8 months ago",
+    body: "Cubeyyyy nooooo you're not cursing me or giving me anything dangerous. And besides, we're friends because I like you, not because you're giving me something. You're so smart and passionate and so cheerful, you helping me with my website is only like my fourth favorite thing about you. Just sayin :)",
+  },
+  {
+    name: "miauau",
+    time: "8 months ago",
+    body: "CUBEY WE LOVE YOU OKAY??? and alice is right. your magic. youre site is magic. everything you do is magic <333 (but in a good way not in an evil way)",
+  },
+  {
+    name: USER,
+    time: "8 months ago",
+    body: "awwwwwweeee guys hahahaaa i wasnt actually thaaaat upsetttt i was being silllyyyy. but now im actually gonna cry for real youre all sososo nice tytyty",
+  },
+
+  // 7 months
+  // something cute silly and showing a depth of relationship between Cubey and Alice
+
+  // 6 months
+  // something from Alice hinting towards a desire for a deeper level of relationship with Cubey
+
+  // 5 months
+  // something showing how Alice is on the cusp of virality
 
   {
     name: USER,
@@ -346,7 +401,7 @@ let comments = [
     body:
       "hey has anyone heard from @" +
       BFF +
-      "??? it looks like her site is down and idk her actual phone number or anything",
+      "??? it looks like her site is down and shes not responding to her email and idk her actual phone number or anything",
   },
   {
     name: "g3th@ck3d!",

@@ -1,6 +1,8 @@
 const USER = "<span class=username>cyubey</span>";
 
 const statuses = [
+  // more here
+
   {
     time: "3 months ago",
     body: "or just like comment on my guestbook or something PLEASE",
@@ -46,14 +48,20 @@ const statuses = [
     body: "worried abt alices site like whered she go????",
   },
 
+  // more here
+
   {
     time: "8 months ago",
     body: "my world is falling apart. how do i change my username",
   },
+
+  // more irl angst
   {
     time: "9 months ago",
     body: "wishing that my dad would EVER KNOCK i stggg",
   },
+
+  // more here
 
   {
     time: "3 years ago",
