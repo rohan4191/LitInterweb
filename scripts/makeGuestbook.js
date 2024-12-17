@@ -386,20 +386,46 @@ let comments = [
     body: "awwwwwweeee guys hahahaaa i wasnt actually thaaaat upsetttt i was being silllyyyy. but now im actually gonna cry for real youre all sososo nice tytyty",
   },
 
-  // 7 months
-  // something cute silly and showing a depth of relationship between Cubey and Alice
-  {
-    name: BFF,
-    time: "7 months ago",
-    body: "",
-  },
-
-  // 6 months
-  // something from Alice hinting towards a desire for a deeper level of relationship with Cubey
   {
     name: BFF,
     time: "6 months ago",
-    body: "",
+    body:
+      "@" +
+      USER +
+      " chatbox on my site is broken for some reason so I'll just keep talking here HAHA. I think most of my friends are online now but I still have a few people I'm close to IRL. How about you?",
+  },
+  {
+    name: USER,
+    time: "6 months ago",
+    body:
+      "@" +
+      BFF +
+      " hahaha thats cool im pretty much all online now just cause there arent a lot of people at my school who like the things i like ",
+  },
+  {
+    name: BFF,
+    time: "6 months ago",
+    body: "Super real!! You're the only person I have I can talk about Mystic Messenger with, Seven :)\nSomething I wonder about though is what it would be like to meet one of my net friends in person.",
+  },
+  {
+    name: USER,
+    time: "6 months ago",
+    body: "oh man that would be crazy. idek if i would want to. maybe for one or two people but i have so many people on my friends page who i dont even know that well online so like it deffff wouldnt go well irl",
+  },
+  {
+    name: BFF,
+    time: "6 months ago",
+    body: "Cmonnnn Cubey you were just saying how your web friends are so much more similar to you than anyone IRL. Would you never even let me meet you in person??",
+  },
+  {
+    name: USER,
+    time: "6 months ago",
+    body: "i said there were one or two people i wouldnt mind........ just sayin :}",
+  },
+  {
+    name: "Teef",
+    time: "6 months ago",
+    body: "Chatbox is back up by the way. Has been for a while. In case you were wondering.",
   },
 
   {
