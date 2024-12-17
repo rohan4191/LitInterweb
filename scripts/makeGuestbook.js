@@ -259,7 +259,7 @@ let comments = [
   {
     name: BFF,
     time: "11 months ago",
-    body: "Shushhhhh. My site wouldn't have nearly as many visitors if it wasn't for your genius coding, Seven :)",
+    body: "Shushhhhh. My site wouldn't have nearly as many visitors if it wasn't for your genius coding, Seven : )",
   },
 
   {
@@ -308,7 +308,7 @@ let comments = [
   {
     name: BFF,
     time: "9 months ago",
-    body: "HAHA you're so right. I guess I'm finally going to have to watch that show now, after all you've done for me :)",
+    body: "HAHA you're so right. I guess I'm finally going to have to watch that show now, after all you've done for me : )",
   },
   {
     name: "Teef",
@@ -327,6 +327,34 @@ let comments = [
     body: "PSA to anyone reading this guestbook: Do NOT watch episode 3 of Madoka Magica.",
   },
   {
+    name: "Teef",
+    time: "8 months ago",
+    body:
+      "@" +
+      BFF +
+      " Lmao. I was surprised to hear Cubey hadn't actually seen past episode 2, given how heavily it features here.",
+  },
+  {
+    name: BFF,
+    time: "8 months ago",
+    body: "HAHA yeah she didn't take it well when I told her what happened.",
+  },
+
+  {
+    name: USER,
+    time: "3 months ago",
+    body:
+      "hey has anyone heard from @" +
+      BFF +
+      "??? it looks like her site is down and idk her actual phone number or anything",
+  },
+  {
+    name: "g3th@ck3d!",
+    time: "3 months ago",
+    body: "you have been visited by the NEOCITY NIBBLER. your page looks nice and scrumptious. share this on 13 other pages or else your neocity will get nibbled",
+  },
+
+  {
     name: "normalOrmal",
     time: "1 month ago",
     body: "aaaaaaa luv ur page. rain animation is so cute i could drink it up. hearts so sparkly they hurt my eyes. flawless. devine. byootiful.",
@@ -334,12 +362,12 @@ let comments = [
   {
     name: USER,
     time: "1 month ago",
-    body: "@normalOrmal. it is not supposed to be cute. it's supposed to be sad and dreary. bc thats how i feel.",
+    body: "@normalOrmal. its not supposed to be cute its supposed to be sad and dreary. bc thats how i feel.",
   },
   {
     name: "normalOrmal",
     time: "1 month ago",
-    body: "@mainusernam,ehereidk oh, oki.",
+    body: "oh, oki.",
   },
   {
     name: "ellabella",
