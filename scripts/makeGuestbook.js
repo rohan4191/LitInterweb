@@ -44,7 +44,7 @@ let comments = [
     body:
       "@" +
       USER +
-      " Oh HAHA. I meant Mystic Messenger. I'm super in love with Seven. Ur kinda like him you know? A cool hacker type. Like how did you make the cursor do that?? Just sayin!",
+      " Oh HAHA. I meant Mystic Messenger. I'm super in love with Seven. Ur kinda like him you know? A cool hacker type. Like how did you make the cursor do that??",
   },
   {
     name: USER,
@@ -156,7 +156,7 @@ let comments = [
   },
   {
     type: "meta",
-    body: "---------------------|116 comments hidden|---------------------",
+    body: "---------------------|89 comments hidden|---------------------",
   },
   {
     name: "meowZA",
@@ -236,6 +236,14 @@ let comments = [
     name: USER,
     time: "1 year ago",
     body: "thx hahaha i have to keep something special for myself so everyone notices when im commenting",
+  },
+
+  {
+    name: "Aspirier",
+    time: "11 months ago",
+    body:
+      "heyyy!~~ your site is adorable >w<\nI my favorite part is all the stickers and I found you from a link from @" +
+      BFF,
   },
 
   {
