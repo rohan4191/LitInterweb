@@ -242,7 +242,7 @@ let comments = [
     name: "Aspirier",
     time: "11 months ago",
     body:
-      "heyyy!~~ your site is adorable >w<\nI my favorite part is all the stickers and I found you from a link from @" +
+      "heyyy!~~ your site is adorable >w<\nI think my favorite part is all the stickers and I found you from a link from @" +
       BFF,
   },
 
@@ -318,7 +318,13 @@ let comments = [
   {
     name: USER,
     time: "9 months ago",
-    body: "ohhh plsss dw about meeee but tyty for asking. im just focusing on alices website since thats whats most important!!!!",
+    body: "ohhh plsss dw about meeee hehe but tyty for asking. im just focusing on alices website since thats whats most important!!!!",
+  },
+
+  {
+    name: BFF,
+    time: "8 months ago",
+    body: "PSA to anyone reading this guestbook: Do NOT watch episode 3 of Madoka Magica.",
   },
   {
     name: "normalOrmal",
