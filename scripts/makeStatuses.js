@@ -1,8 +1,7 @@
 const USER = "<span class=username>cyubey</span>";
+const BFF = "<span style='color: red'>m_alice</span>";
 
 const statuses = [
-  // more here
-
   {
     time: "3 months ago",
     body: "or just like comment on my guestbook or something PLEASE",
@@ -48,32 +47,100 @@ const statuses = [
     body: "worried abt alices site like whered she go????",
   },
 
-  // more here
+  {
+    time: "4 months ago",
+    body: "writing code for ever and ever and ever and... (recursion joke)",
+  },
+  {
+    time: "5 months ago",
+    body: "feeling special things for special people",
+  },
+  {
+    time: "7 months ago",
+    body: "casting spells of website awesomeness",
+  },
 
   {
     time: "8 months ago",
     body: "my world is falling apart. how do i change my username",
   },
 
-  // more irl angst
   {
     time: "9 months ago",
     body: "wishing that my dad would EVER KNOCK i stggg",
   },
+  {
+    time: "9 months ago",
+    body: "ENRAGED that my parents wont let me watch past episode 2 of madoka magica",
+  },
+
+  {
+    time: "1 year ago",
+    body: "<p style='white-space: pre-wrap'>\
+／＞　 フ\n\
+  | 　_　_| \n\
+／` ミ＿xノ \n\
+/　　　　 |\n\
+/　 ヽ　　 ﾉ\n\
+│　　|　|　|\n\
+／￣|　　 |　|　|\n\
+(￣ヽ＿_ヽ_)__)\n\
+＼二)</p>",
+  },
+  {
+    time: "1 year ago",
+    body: "wait i just overwrote the status now i need to set it again",
+  },
+  {
+    time: "1 year ago",
+    body: "YAYYY IT WORKED",
+  },
+  {
+    time: "1 year ago",
+    body: "<p style='white-space: pre-wrap'>\
+／＞　 フ\n\
+  | 　_　_| \n\
+／` ミ＿xノ \n\
+/　　　　 |\n\
+/　 ヽ　　 ﾉ\n\
+│　　|　|　|\n\
+／￣|　　 |　|　|\n\
+(￣ヽ＿_ヽ_)__)\n\
+＼二)</p>",
+  },
+  {
+    time: "1 year ago",
+    body: "oops that didnt work",
+  },
+  {
+    time: "1 year ago",
+    body: "\n\
+    ／＞　 フ\n\
+  | 　_　_| \n\
+／` ミ＿xノ \n\
+/　　　　 |\n\
+/　 ヽ　　 ﾉ\n\
+│　　|　|　|\n\
+／￣|　　 |　|　|\n\
+(￣ヽ＿_ヽ_)__)\n\
+＼二) ",
+  },
 
   {
     time: "2 years ago",
-    body: "ohh my goshhh i had no idea " + BFF + " had such a huge page",
+    body:
+      "ASTOUNDED that " +
+      BFF +
+      " has such a huge page and decided to raid me >u<",
   },
   {
     time: "2 years ago",
     body: "EEEEp so many COMMENTS HIII EVERYONE",
   },
 
-  // more here
   {
     time: "3 years ago",
-    body: "",
+    body: "new layout for the like 4 people who will see it!!!!!",
   },
 
   {
